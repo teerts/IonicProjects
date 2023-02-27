@@ -25,4 +25,10 @@ export class RecipesService {
   getAllRecipes() {
     return [...this.recipes];
   }
+
+  getRecipe(recipeId: string) {
+    return {...this.recipes.find(recipe => {
+      return recipe.id === recipeId;
+    })};
+  }
 }
