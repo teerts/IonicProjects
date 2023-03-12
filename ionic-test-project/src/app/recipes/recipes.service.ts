@@ -16,7 +16,7 @@ export class RecipesService {
       ingredients: ['Sesame Oil', 'Avocado Oil', 'Garlic', 'Fresh Ginger', 'Pork', 'Rice Vinegar', 'Soft-boiled Egg']
     },
     {
-      id: 'r1',
+      id: 'r2',
       title: 'Chicken Ramen',
       imageUrl: "https://glebekitchen.com/wp-content/uploads/2017/04/tonkotsuramenfront.jpg",
       ingredients: ['Sesame Oil', 'Avocado Oil', 'Garlic', 'Fresh Ginger', 'Chicken', 'Rice Vinegar', 'Soft-boiled Egg']
