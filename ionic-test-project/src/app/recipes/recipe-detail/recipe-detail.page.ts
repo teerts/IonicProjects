@@ -32,7 +32,6 @@ export class RecipeDetailPage implements OnInit {
     console.log(this.loadedRecipe.id);
     this.recipeService.deleteRecipe(this.loadedRecipe.id!);
     this.router.navigate(['/recipes']);
-    this.recipeService.getAllRecipes();
   }
 
 }
